@@ -7,11 +7,40 @@
     <!-- css link hare -->
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <h1>Hello Tailwind</h1>
-    <h2>Hello Tailwind</h2>
-    <h3>Hello Tailwind</h3>
-    <h3>Hello Tailwind</h3>
+<body class="bg-[#2B2D33]">
+    <nav class="bg-[#2B2D33] shadow-xl">
+        <div class="container mx-auto">
+            <div class="sm:flex text-center justify-between text-white py-5 items-center">
+                <div class="text-center sm:flex m-3">
+                    <a href="#" class="text-xl sm:text-3xl"><span class="text-[#F65023]">S</span>mart Cod<span class="text-[#F65023]">ers</span></a>
+                </div>
+                <ul class="sm:flex text-center border-t sm:border-none font-bold">
+                    <li class="mt-3 sm:mt-0"><a href="#" class="p-3 text-[#E64D24]">Home</a></li>
+                    <li class="mt-3 sm:mt-0"><a href="#" class="p-3 hover:text-[#E64D24]">Products</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#E64D24]">Blogs</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#E64D24]">Portfolio</a></li>
+                    <li><a href="#" class="p-3 hover:text-[#E64D24]">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="container mx-auto h-[50vh] text-white text-center sm:flex justify-around items-center border border-indigo-600 border-t-0">
+            <div class="mt-4 sm:mt-0 mb-5 sm:mb-0 px-7">
+                <h1 class="text-xl sm:text-3xl">Smart Coders: Learn <br> Programming</h1>
+                <button class="bg-[#312E81] px-4 py-2 rounded-full mt-7 hover:bg-indigo-500">join: Programming Shikhbo's Team<svg class="w-7 inline-block ml-3 text-red-500 animate-ping" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                   </button>
+
+            </div>
+            <div class="animate-pulse">
+                <img src="images/hero-img.png" alt="image">
+
+            </div>
+        </div>
+    </header>
+   
     
 </body>
 </html>
